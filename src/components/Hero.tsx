@@ -50,8 +50,8 @@ const Hero: React.FC = () => {
     }
 
     return (
-        <section id="hero" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
-            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <section id="hero" className="relative min-h-[100svh] flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-purple-50 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900">
+            <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center py-16 sm:py-20 pb-24">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -128,7 +128,7 @@ const Hero: React.FC = () => {
                             View My Work
                         </motion.button>
                         <motion.a
-                            href="/23DCS092(Resume).pdf"
+                            href="/resume(2).pdf"
                             download="Shubh_Patel_Resume.pdf"
                             className="bg-purple-600 hover:bg-purple-700 text-white font-semibold py-4 px-8 rounded-full shadow-lg hover:shadow-xl transition-all duration-300"
                             whileHover={{ scale: 1.05 }}
@@ -140,7 +140,7 @@ const Hero: React.FC = () => {
                 </motion.div>
 
                 <motion.div
-                    className="absolute bottom-8 left-1/2 transform -translate-x-1/2"
+                    className="absolute bottom-4 sm:bottom-8 left-1/2 transform -translate-x-1/2"
                     animate={{ y: [0, 10, 0] }}
                     transition={{ duration: 2, repeat: Infinity }}
                 >

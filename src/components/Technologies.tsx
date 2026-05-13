@@ -19,7 +19,7 @@ const techStack: TechCategory[] = [
     },
     {
         title: 'Cloud & DevOps',
-        technologies: ['AWS', 'Docker', 'Kubernetes', 'GitHub Actions']
+        technologies: ['AWS', 'Docker', 'GitHub Actions']
     },
     {
         title: 'Database',

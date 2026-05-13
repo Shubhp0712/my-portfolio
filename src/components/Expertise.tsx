@@ -17,7 +17,7 @@ const expertiseData: ExpertiseItem[] = [
         title: 'Frontend Development',
         description: 'Creating responsive, interactive user interfaces with modern frameworks and libraries.',
         icon: Globe,
-        skills: ['React', 'Next.js', 'TypeScript', 'TailwindCSS', 'Vue.js'],
+        skills: ['React', 'Next.js', 'TypeScript', 'TailwindCSS'],
         color: 'from-blue-500 to-cyan-500'
     },
     {
@@ -31,28 +31,28 @@ const expertiseData: ExpertiseItem[] = [
         title: 'Database Management',
         description: 'Designing and optimizing database systems for performance and scalability.',
         icon: Database,
-        skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis', 'Prisma'],
+        skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Redis'],
         color: 'from-purple-500 to-violet-500'
     },
     {
         title: 'DevOps & Cloud',
         description: 'Implementing CI/CD pipelines and managing cloud infrastructure.',
         icon: Cloud,
-        skills: ['AWS', 'Docker', 'Kubernetes', 'GitHub Actions', 'Terraform'],
+        skills: ['AWS', 'Docker', 'GitHub Actions'],
         color: 'from-orange-500 to-red-500'
     },
     {
         title: 'Mobile Development',
         description: 'Building cross-platform mobile applications with native performance.',
         icon: Smartphone,
-        skills: ['React Native', 'Flutter', 'Expo', 'iOS', 'Android'],
+        skills: ['Flutter', 'iOS', 'Android'],
         color: 'from-pink-500 to-rose-500'
     },
     {
         title: 'Tools & Workflow',
         description: 'Utilizing modern development tools and maintaining efficient workflows.',
         icon: Settings,
-        skills: ['Git', 'VS Code', 'Figma', 'Postman', 'Jest'],
+        skills: ['Git', 'VS Code', 'Figma', 'Postman',],
         color: 'from-indigo-500 to-blue-500'
     }
 ]
